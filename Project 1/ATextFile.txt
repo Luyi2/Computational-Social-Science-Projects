@@ -1,0 +1,35 @@
+Last login: Mon Sep 20 14:40:24 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) airbears2-10-142-157-170:~ jianluyi$ cd Desktop/Year\ 3\ Fall/Sociol\ 273L\ Computational\ Social\ Science\ /Assignments/
+(base) airbears2-10-142-157-170:Assignments jianluyi$ git clone https://github.com/Luyi2/Computational-Social-Science-Projects.git
+Cloning into 'Computational-Social-Science-Projects'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+(base) airbears2-10-142-157-170:Assignments jianluyi$ mkdir Project 1
+(base) airbears2-10-142-157-170:Assignments jianluyi$ rm -r Project 1
+(base) airbears2-10-142-157-170:Assignments jianluyi$ pwd
+/Users/jianluyi/Desktop/Year 3 Fall/Sociol 273L Computational Social Science /Assignments
+(base) airbears2-10-142-157-170:Assignments jianluyi$ cd Computational-Social-Science-Projects/
+(base) airbears2-10-142-157-170:Computational-Social-Science-Projects jianluyi$ rm -r Project
+(base) airbears2-10-142-157-170:Computational-Social-Science-Projects jianluyi$ rm -r 1
+(base) airbears2-10-142-157-170:Computational-Social-Science-Projects jianluyi$ mkdir Project 1
+(base) airbears2-10-142-157-170:Computational-Social-Science-Projects jianluyi$ em -r Project
+-bash: em: command not found
+(base) airbears2-10-142-157-170:Computational-Social-Science-Projects jianluyi$ rm -r Project
+(base) airbears2-10-142-157-170:Computational-Social-Science-Projects jianluyi$ rm -r 1
+(base) airbears2-10-142-157-170:Computational-Social-Science-Projects jianluyi$ mkdir Project/1
+mkdir: Project: No such file or directory
+(base) airbears2-10-142-157-170:Computational-Social-Science-Projects jianluyi$ pwd
+/Users/jianluyi/Desktop/Year 3 Fall/Sociol 273L Computational Social Science /Assignments/Computational-Social-Science-Projects
+(base) airbears2-10-142-157-170:Computational-Social-Science-Projects jianluyi$ mkdir Project 1
+(base) airbears2-10-142-157-170:Computational-Social-Science-Projects jianluyi$ mkdir 'Project 1'
+(base) airbears2-10-142-157-170:Computational-Social-Science-Projects jianluyi$ rm -r Project 1
+(base) airbears2-10-142-157-170:Computational-Social-Science-Projects jianluyi$ cd Project\ 1/
+(base) airbears2-10-142-157-170:Project 1 jianluyi$ touch ATextFile.txt
+(base) airbears2-10-142-157-170:Project 1 jianluyi$ 
+(base) airbears2-10-142-157-170:Project 1 jianluyi$ vim AtextFile.txt
