@@ -1,5 +1,6 @@
 Last login: Mon Sep 20 14:40:24 on ttys000
 
+
 The default interactive shell is now zsh.
 To update your account to use zsh, please run `chsh -s /bin/zsh`.
 For more details, please visit https://support.apple.com/kb/HT208050.
@@ -31,5 +32,21 @@ mkdir: Project: No such file or directory
 (base) airbears2-10-142-157-170:Computational-Social-Science-Projects jianluyi$ rm -r Project 1
 (base) airbears2-10-142-157-170:Computational-Social-Science-Projects jianluyi$ cd Project\ 1/
 (base) airbears2-10-142-157-170:Project 1 jianluyi$ touch ATextFile.txt
-(base) airbears2-10-142-157-170:Project 1 jianluyi$ 
 (base) airbears2-10-142-157-170:Project 1 jianluyi$ vim AtextFile.txt
+(base) airbears2-10-142-157-170:Project 1 jianluyi$ vim AtextFile.txt
+(base) airbears2-10-142-157-170:Project 1 jianluyi$ git add *
+(base) airbears2-10-142-157-170:Project 1 jianluyi$ git commit -m "Project 1 assignment 2.1"
+[main 64c0160] Project 1 assignment 2.1
+ 1 file changed, 35 insertions(+)
+ create mode 100644 Project 1/ATextFile.txt
+(base) airbears2-10-142-157-170:Project 1 jianluyi$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 946 bytes | 473.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Luyi2/Computational-Social-Science-Projects.git
+   8e31cab..64c0160  main -> main
+(base) airbears2-10-142-157-170:Project 1 jianluyi$ 
+
